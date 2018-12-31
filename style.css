@@ -1,5 +1,7 @@
 b { font-weight: bold; }
 
+body { background-color: black; }
+
 .key { position: absolute; font-family: Helvetica; font-weight: 100; font-size: 12px;
   border: 1px solid rgba(32,32,32,0.2);
   border-radius: 0px 0px 5px 5px;
