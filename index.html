@@ -3,35 +3,129 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <div class="piano">
-            <div class="piano-container">
-                <div class="piano-keys">
-                    <div class="piano-white piano-C3">Q</div>
-                    <div class="piano-black"><div class="piano-black-raised piano-Db3">1</div></div>
-                    <div class="piano-white piano-D3"></div>
-                    <div class="piano-black"><div class="piano-black-raised piano-Eb3"></div></div>
-                    <div class="piano-white piano-E3"></div>
-                    <div class="piano-white piano-F3"></div>
-                    <div class="piano-black"><div class="piano-black-raised piano-Gb3"></div></div>
-                    <div class="piano-white piano-G3"></div>
-                    <div class="piano-black"><div class="piano-black-raised piano-Ab3"></div></div>
-                    <div class="piano-white piano-A3"></div>
-                    <div class="piano-black"><div class="piano-black-raised piano-Bb3"></div></div>
-                    <div class="piano-white piano-B3"></div>
-                    <div class="piano-white piano-C4"></div>
-                    <div class="piano-black"><div class="piano-black-raised piano-Db4"></div></div>
-                    <div class="piano-white piano-D4"></div>
-                    <div class="piano-black"><div class="piano-black-raised piano-Eb4"></div></div>
-                    <div class="piano-white piano-E4"></div>
-                    <div class="piano-white piano-F4"></div>
-                    <div class="piano-black"><div class="piano-black-raised piano-Gb4"></div></div>
-                    <div class="piano-white piano-G4"></div>
-                    <div class="piano-black"><div class="piano-black-raised piano-Ab4"></div></div>
-                    <div class="piano-white piano-A4"></div>
-                    <div class="piano-black"><div class="piano-black-raised piano-Bb4"></div></div>
-                    <div class="piano-white piano-B4"></div>
+        <p class="map" id="mapHolder">
+        </p>
+        <div id="keyboard" class="keyboard-holder" style="width: 560px;">
+            <div id="C 3" class="white key" style="width: 40px; height: 200px; left: 0px;">
+                <div class="label">
+                    <b>Q</b>
                 </div>
             </div>
+            <div id="C# 3" class="black key" style="width: 30px; height: 120px; left: 25px;">
+                <div class="label">
+                    <b>1</b>
+                </div>
+            </div>    
+            <div id="D 3" class="white key" style="width: 40px; height: 200px; left: 40px;">
+                <div class="label">
+                    <b>W</b>
+                </div>
+            </div>    
+            <div id="D# 3" class="black key" style="width: 30px; height: 120px; left: 65px;">
+                <div class="label">
+                    <b>2</b>
+                </div>
+            </div>    
+            <div id="E 3" class="white key" style="width: 40px; height: 200px; left: 80px;">
+                <div class="label">
+                    <b>E</b>
+                </div>
+            </div>    
+            <div id="F 3" class="white key" style="width: 40px; height: 200px; left: 120px;">
+                <div class="label">
+                    <b>R</b>
+                </div>
+            </div>    
+            <div id="F# 3" class="black key" style="width: 30px; height: 120px; left: 145px;">
+                <div class="label">
+                    <b>3</b>
+                </div>
+            </div>    
+            <div id="G 3" class="white key" style="width: 40px; height: 200px; left: 160px;">
+                <div class="label">
+                    <b>T</b>
+                </div>
+            </div>    
+            <div id="G# 3" class="black key" style="width: 30px; height: 120px; left: 185px;">
+                <div class="label">
+                    <b>4</b>
+                </div>
+            </div>    
+            <div id="A 3" class="white key" style="width: 40px; height: 200px; left: 200px;">
+                <div class="label">
+                    <b>Y</b>
+                </div>
+            </div>    
+            <div id="A# 3" class="black key" style="width: 30px; height: 120px; left: 225px;">
+                <div class="label">
+                    <b>5</b>
+                </div>
+            </div>    
+            <div id="B 3" class="white key" style="width: 40px; height: 200px; left: 240px;">
+                <div class="label">
+                    <b>U</b>
+                </div>
+            </div>    
+            <div id="C 4" class="white key" style="width: 40px; height: 200px; left: 280px;">
+                <div class="label">
+                    <b>Z</b>
+                </div>
+            </div>    
+            <div id="C# 4" class="black key" style="width: 30px; height: 120px; left: 305px;">
+                <div class="label">
+                    <b>6</b>
+                </div>
+            </div>    
+            <div id="D 4" class="white key" style="width: 40px; height: 200px; left: 320px;">
+                <div class="label">
+                    <b>X</b>
+                </div>
+            </div>    
+            <div id="D# 4" class="black key" style="width: 30px; height: 120px; left: 345px;">
+                <div class="label">
+                    <b>7</b>
+                </div>
+            </div>    
+            <div id="E 4" class="white key" style="width: 40px; height: 200px; left: 360px;">
+                <div class="label">
+                    <b>C</b>
+                </div>
+            </div>    
+            <div id="F 4" class="white key" style="width: 40px; height: 200px; left: 400px;">
+                <div class="label">
+                    <b>V</b>
+                </div>
+            </div>    
+            <div id="F# 4" class="black key" style="width: 30px; height: 120px; left: 425px;">
+                <div class="label">
+                    <b>8</b>
+                </div>
+            </div>    
+            <div id="G 4" class="white key" style="width: 40px; height: 200px; left: 440px;">
+                <div class="label">
+                    <b>B</b>
+                </div>
+            </div>    
+            <div id="G# 4" class="black key" style="width: 30px; height: 120px; left: 465px;">
+                <div class="label">
+                    <b>9</b>
+                </div>
+            </div>    
+            <div id="A 4" class="white key" style="width: 40px; height: 200px; left: 480px;">
+                <div class="label">
+                    <b>N</b>
+                </div>
+            </div>    
+            <div id="A# 4" class="black key" style="width: 30px; height: 120px; left: 505px;">
+                <div class="label">
+                    <b>0</b>
+                </div>
+            </div>    
+            <div id="B 4" class="white key" style="width: 40px; height: 200px; left: 520px;">
+                <div class="label">
+                    <b>M</b>
+                </div>
+            </div>    
         </div>
         <script src="audiosynth.js"></script>
         <script src="script.js"></script>
