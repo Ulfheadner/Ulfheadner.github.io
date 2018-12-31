@@ -1,6 +1,6 @@
 /* global document */
 
-const answer = ['C 3', 'A 3', 'A 3', 'G 3', 'A 3', 'F 3', 'C 3', 'C 3', 'C 3', 'A 3', 'A 3', 'A# 3', 'G 3', 'C 4']
+const answer = ['C 3', 'A 3', 'A 3', 'G 3', 'A 3', 'F 3', 'C 3', 'C 3', 'C 3', 'A 3', 'A 3', 'A# 3', 'D 4', 'C 4']
 let correct = 0
 
 const piano = Synth.createInstrument('piano');
